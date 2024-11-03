@@ -207,6 +207,7 @@ h4 {
     /* Columns 4 to 6 */
     grid-row: 4;
     /* Row 4 */
+    background-image: url('./images/p.jpg');
 }
 
 #q {
@@ -214,6 +215,7 @@ h4 {
     /* Columns 6 to 10 */
     grid-row: 4;
     /* Row 4 */
+    background-image: url('./images/q.jpg');
 }
 
 #d,
@@ -233,7 +235,9 @@ h4 {
 #l,
 #m,
 #n,
-#o {
+#o,
+#p,
+#q {
     background-size: cover;
     /* Cover the entire cell */
     background-position: center;
